@@ -17,6 +17,7 @@ class Calc extends Component {
 
     render_btns = () => {
       let arr = []
+      
       for (var i = this.props.number_of_bits-1; i > -1; i--) {
         arr.push(<Bitbtn key={i} myid={i} btn_fn={this.toggle_bit} />)
       }
