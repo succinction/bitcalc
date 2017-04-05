@@ -13,10 +13,13 @@ class Bitbtn extends Component {
 // onClick={() => this.handleSort(column)}
     render() {
         return (
+          <div className="bit-btn" >
             <div onClick={() => this.btn_fn(this.id)} className="bit-btn" >
               {this.props.myid}
-              {console.log("bit btn" + this.id)}
             </div>
+            <div className="cover"  onClick={() => this.btn_fn(this.id)}  ></div>
+          </div>
+
         );
     }
 }

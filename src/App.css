@@ -23,14 +23,49 @@
   to { transform: rotate(360deg); }
 }
 
+.cover {
 
-.bit-btn {
-  background-color: red;
-  position: relative;
+  background-color: rgba(9,9,9,0);
+  position: absolute;
   display: inline-block;
-  width: 20px;
+  width: 21px;
   height: 20px;
   padding:2px;
   margin: 2px;
+  border-radius: 5px;
+  left: 2px;
+  top: -2px
 
+}
+
+.bit-btn {
+  background-color: teal;
+  position: relative;
+  display: inline-block;
+  width: 21px;
+  height: 20px;
+  padding:2px;
+  margin: 2px;
+  border-radius: 5px;
+
+}
+
+#spanner {
+  width: 400;
+  padding: 2px;
+  padding-right: 34px;
+
+
+
+}
+
+.inpt {
+  align-content: right;
+  align-items: right;
+  text-align: right;
+  size: 20px;
+  font-size: 48px;
+  font-style: code;
+  font-family: monospace;
+  
 }
